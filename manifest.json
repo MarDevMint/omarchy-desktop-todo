@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "m.todo",
+  "name": "Desktop TODO",
+  "version": "1.1.0",
+  "author": "MarDevMint",
+  "license": "MIT",
+  "description": "Theme-aware TODO card pinned to the desktop, above the wallpaper and below windows. Tasks live in a plain Markdown checklist (~/.local/share/omarchy/todo.md).",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
